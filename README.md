@@ -1,27 +1,33 @@
-# Exercise2
+# Exercise 2: Unit Testing
+Write a 4-5 number of unit tests for your application for any of the modules. This exercise will be evaluated not based on the complexity of the test cases but on the elegance of how it is written. You should have used dependency injection in your application, so mock the dependencies.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests.
 
-## Running end-to-end tests
+The Following Test Cases are created:
+## TitleCasePipe
+transforms "Abc" to "abc" ✅
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+transforms "ABC" to "abc" ✅
 
-## Further help
+## UserComponent
+titletesting ✅
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+htmltesting ✅
+
+## AppComponent
+should have the 'exercise2' title ✅
+
+should create the app ✅
+
+should render title ✅
+
+## SwitchComponent
+#clicked() should toggle #isOn ✅
