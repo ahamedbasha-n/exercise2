@@ -3,10 +3,6 @@ Write a 4-5 number of unit tests for your application for any of the modules. Th
 
 version 17.2.0.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests.
