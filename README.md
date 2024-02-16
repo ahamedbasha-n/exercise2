@@ -1,7 +1,7 @@
 # Exercise 2: Unit Testing
 Write a 4-5 number of unit tests for your application for any of the modules. This exercise will be evaluated not based on the complexity of the test cases but on the elegance of how it is written. You should have used dependency injection in your application, so mock the dependencies.
 
-version 17.2.0.
+Angular version 17.2.0.
 
 ## Running unit tests
 
